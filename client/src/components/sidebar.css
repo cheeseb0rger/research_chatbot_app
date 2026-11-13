@@ -1,0 +1,38 @@
+#sidebar {
+    --header-height: 145px;
+}
+
+.sidebar-header {
+  width: 100%;
+  height: var(--header-height);
+
+  h1 {
+    font-size: 24px;
+    font-family: var(--heading);
+    font-weight: 500;
+    color: var(--text-h);
+
+    display: flex;
+    justify-content: center;
+
+    margin: 5px 0 25px 0;
+  }
+}
+
+
+#new-chat-button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  width: 65%;
+  margin: 10% 15% 15% 15%;
+
+  border-radius: 10px;
+}
+
+
+.sidebar-body{
+  width: 100%;
+  height: calc(100% - var(--header-height)); 
+}

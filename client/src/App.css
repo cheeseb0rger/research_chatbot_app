@@ -1,0 +1,37 @@
+
+[data-bs-theme="light"] .custom-btn {
+  background-color: var(--bg);
+  color: var(--text);
+  border: 1px solid #212529;
+}
+
+.custom-btn:hover,.chat-tab:hover,.chat-tab.active {
+  background-color: var(--highlight);
+  color: var(--text-h);
+  transition: background-color 0.5s, color 0.2s;
+}
+
+#sidebar {
+  padding: 25px 10px 35px 10px;
+
+  border: 2px solid var(--border);
+  height: 100svh;
+
+  background-color: var(--bg-sidebar);
+}
+
+#main-window {
+  height: 100svh;
+
+  background-color: var(--bg);
+}
+
+
+/* Limit text to 3 lines */
+.limit-by-lines {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  line-clamp: 3;
+  -webkit-line-clamp: 3; /* Change this number to your desired line count */
+  overflow: hidden;
+}
